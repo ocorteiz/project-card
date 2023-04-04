@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* 
+
+TABELA DE DEVICE BREAKPOINT:
+
+CELULAR: 360Px ATÉ 768Px
+TABLETS: 768Px ATÉ 992Px
+DESKTOPS: 992Px ATÉ 1920Px
+TV: 1920Px ACIMA
+
+RESOLUÇÃO DO WIDTH
+
+*/
+
+@media screen and (min-width: 992px) {
+    
+    section#card {
+        display: flex;
+        justify-content: center;
+        width: 600px;
+    }
+
+    div#image {
+        width: 390px;
+        height: 450px;
+        background-image: url(images/image-product-desktop.jpg);
+    }
+
+    div#text {
+        width: 300px;
+
+        position: relative;
+        top: 55px;
+    }
+
+    div#compra a {
+        padding: 10px 40px
+    }
+    
+}
+

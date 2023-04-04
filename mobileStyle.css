@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, main {
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#card {
+    width: 330px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.212);
+    overflow: hidden;
+}
+
+div#image {
+    background-image: url(images/image-product-mobile.jpg);
+    height: 250px;
+    background-size: cover;
+}
+
+div#text {
+    padding: 20px;
+}
+
+div#text h1 {
+    margin: 15px 0px;
+}
+
+div#text p {
+    line-height: 1.4em;
+}
+
+div#preco {
+    display: flex;
+    align-items: center;
+}
+
+div#preco h2 {
+    color: #3d8168;
+    margin-right: 20px;
+    font-size: 2em;
+}
+
+div#preco h2,h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+div#preco h3 {
+    text-decoration: line-through;
+    font-weight: 100;
+    font-size: .9em;
+}
+
+div#compra {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+div#compra a {
+    padding: 15px 60px;
+    background-color: #3d8168;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+div#compra a:hover {
+    background-color: rgb(202, 202, 160);
+}
