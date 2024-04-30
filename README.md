@@ -1,1 +1,1 @@
-PARA ACESSAR PAGINA WEB: https://github.com/ocorteiz/project-card
+PARA ACESSAR PAGINA WEB: https://ocorteiz.github.io/project-card
